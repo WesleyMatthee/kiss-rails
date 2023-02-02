@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## DATABASE AND SEEDS
+After creating Postgress database
+
+```rake db:migrate```
+
+```rake db:seed```

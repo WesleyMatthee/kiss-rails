@@ -1,10 +1,11 @@
 class CreateIncidentTypes < ActiveRecord::Migration[7.0]
   def change
-    create_table :incident_types do |t|
+    create_table :incident_types, if_not_exists: true do |t|
       t.string :name
-      t.string :image_url
+      t.binary :image
 
       t.timestamps
     end
   end
 end
+ 

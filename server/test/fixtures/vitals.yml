@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  incident_id: one
+  pulse: 1
+  respiration: 1
+  skin_condition: MyString
+  pearl: false
+  extra_notes: MyString
+
+two:
+  incident_id: two
+  pulse: 1
+  respiration: 1
+  skin_condition: MyString
+  pearl: false
+  extra_notes: MyString

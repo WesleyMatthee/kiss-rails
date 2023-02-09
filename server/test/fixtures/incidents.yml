@@ -1,35 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  user_id: 1
-  incident_type_id: 1
-  incident_duration: 2023-02-04 15:02:20
-  incident_time: 2023-02-04 15:02:20
+  user_id: one
+  incident_type_id: one
+  incident_duration: 1
   location: MyString
-  pulse: 1
-  pulse_time: 2023-02-04 15:02:20
-  respirations: 1
-  respirations_time: 2023-02-04 15:02:20
-  skin_condition: MyText
-  skin_condition_time: 2023-02-04 15:02:20
-  pearl: MyText
-  pearl_time: 2023-02-04 15:02:20
-  extra_notes: MyText
   age_stage: MyString
 
 two:
-  user_id: 1
-  incident_type_id: 1
-  incident_duration: 2023-02-04 15:02:20
-  incident_time: 2023-02-04 15:02:20
+  user_id: two
+  incident_type_id: two
+  incident_duration: 1
   location: MyString
-  pulse: 1
-  pulse_time: 2023-02-04 15:02:20
-  respirations: 1
-  respirations_time: 2023-02-04 15:02:20
-  skin_condition: MyText
-  skin_condition_time: 2023-02-04 15:02:20
-  pearl: MyText
-  pearl_time: 2023-02-04 15:02:20
-  extra_notes: MyText
   age_stage: MyString

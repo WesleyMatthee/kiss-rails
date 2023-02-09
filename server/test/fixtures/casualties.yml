@@ -1,17 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  incident_id: one
   name: MyString
-  dob: 2023-02-04
+  dob: 2023-02-09
   allergies: MyString
   gender: MyString
   illnesses: MyString
-  blood_types: MyString
+  blood_type: MyString
 
 two:
+  incident_id: two
   name: MyString
-  dob: 2023-02-04
+  dob: 2023-02-09
   allergies: MyString
   gender: MyString
   illnesses: MyString
-  blood_types: MyString
+  blood_type: MyString

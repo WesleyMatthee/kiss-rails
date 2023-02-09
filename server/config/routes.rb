@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :casualties
+  resources :incidents
+  resources :incident_types
+  resources :users
+  resources :vitals
   get 'users/index'
   get 'incident_types/index'
   get 'incident/index'

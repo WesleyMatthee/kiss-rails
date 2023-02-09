@@ -1,3 +1,3 @@
 class Vital < ApplicationRecord
-  has_one :incident
+  belongs_to :incident
 end

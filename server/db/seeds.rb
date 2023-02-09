@@ -39,7 +39,7 @@ incidents_two = Incident.create(
     )
 
 incidents_three = Incident.create(
-    user_id: 3,
+    user_id: 2,
     incident_type_id: 2, 
     incident_duration: 3,  
     location: 'buffalo', 
@@ -100,7 +100,7 @@ vital_second = Vital.create(
         )
 
 vital_three = Vital.create(
-    incident_id: 1,
+    incident_id: 3,
     pulse: 80, 
     respiration: 10, 
     skin_condition: 'wet', 
@@ -127,7 +127,7 @@ vital_five = Vital.create(
         )
 
 vital_six = Vital.create(
-    incident_id: 1,
+    incident_id: 3,
     pulse: 100, 
     respiration: 12, 
     skin_condition: 'wet', 

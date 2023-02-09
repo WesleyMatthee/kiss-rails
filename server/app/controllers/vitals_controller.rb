@@ -3,4 +3,5 @@ class VitalsController < ApplicationController
     @vitals = Vital.all
     render json: @vitals
   end
+  
 end

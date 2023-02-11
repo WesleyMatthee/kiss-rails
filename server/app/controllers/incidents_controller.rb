@@ -1,7 +1,7 @@
 class IncidentsController < ApplicationController
   def index
-    @history = User.all
-    render json: @history, include: ["incidents"]
+    @history = Incident.all
+    render json: @history
   end
 
   def show
